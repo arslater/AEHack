@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-  <head>
+  <head profile="http://www.w3.org/2005/10/profile">
     <meta content="text/html; charset=UTF-8" http-equiv="content-type">
     <title>CATS</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,17 +8,26 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
-html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
-</style> </head>
-  <body class="w3-light-grey">
-    <header class="w3-display-container w3-content w3-center" style="max-width:1500px">
-      <img class="w3-image" src="src/assets/tech_icon.png" alt="Me"
-        height="600" width="1500">
-      <div class="w3-display-middle w3-padding-large w3-border w3-wide w3-text-light-grey w3-center">
-        <h1 class="w3-hide-medium w3-hide-small w3-xxxlarge">JANE DOE</h1>
-        <h5 class="w3-hide-large" style="white-space:nowrap">JANE DOE</h5>
-        <h3 class="w3-hide-medium w3-hide-small">PHOTOGRAPHER</h3>
-      </div>
+      <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+			<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+			<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+			<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+			<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+			<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+			<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+			<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+			<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+			<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+			<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png"><span bluegriffonstandalone='true' bluegriffonsourceselected='true'></span>
+			<link rel="shortcut icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+			<link rel="manifest" href="/manifest.json">
+			<meta name="msapplication-TileColor" content="#ffffff">
+			<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+			<meta name="theme-color" content="#ffffff">
+				html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+			</style>
+  </head>
+  <body class="w3-light-grey">   
       <!-- Top container -->
       <div class="w3-bar w3-top w3-black w3-large" style="z-index:4"> <button class="w3-bar-item w3-button w3-hide-large w3-hover-none w3-hover-text-light-grey"
           onclick="w3_open();"><i class="fa fa-bars"></i> &nbsp;Menu</button> </div>
@@ -41,6 +50,20 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
       </nav>
       <!-- Overlay effect when opening sidebar on small screens -->
       <!-- !PAGE CONTENT! -->
+     <!-- Photo grid -->
+  <div class="w3-row">
+    <div class="w3-third">
+      <img src="donkeys.jpg" style="width:100%" onclick="onClick(this)" alt="A boy surrounded by beautiful nature">
+    </div>
+
+    <div class="w3-third">
+      <img src="donkeys.jpg" style="width:100%" onclick="onClick(this)" alt="Quiet day at the beach. Cold, but beautiful">
+    </div>
+    
+    <div class="w3-third">
+      <img src="donkeys.jpg" style="width:100%" onclick="onClick(this)" alt="What a beautiful day!">
+    </div>
+  </div>
       <div class="w3-main" style="margin-left:300px;margin-top:43px;">
         <!-- Header -->
         <header class="w3-container" style="padding-top:22px">
