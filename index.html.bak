@@ -1,139 +1,108 @@
 <!DOCTYPE html>
 <html>
-  <head profile="http://www.w3.org/2005/10/profile">
-    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
-    <title>Risk Assess</title>
+  <head>
+    <title>W3.CSS Template</title>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style/w3schools.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
     <style>
-      <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
-			<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
-			<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
-			<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
-			<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
-			<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
-			<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
-			<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
-			<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
-			<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-			<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png"><span bluegriffonstandalone='true' bluegriffonsourceselected='true'></span>
-			<link rel="shortcut icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-			<link rel="manifest" href="/manifest.json">
-			<meta name="msapplication-TileColor" content="#ffffff">
-			<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-			<meta name="theme-color" content="#ffffff">
-				html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
-			</style>
-  </head>
-  <body class="w3-light-grey w3-content" style="   max-width:1600px"> 
-      <!-- Top container -->
-      <!-- Top container -->
-      <div class="w3-bar w3-top w3-black w3-large" style="z-index:4"> <button class="w3-bar-item w3-button w3-hide-large w3-hover-none w3-hover-text-light-grey"
-          onclick="w3_open();"><i class="fa fa-bars"></i> Menu</button> </div>
-      <hr> <a>
-    <nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;"
-      id="mySidebar"><a><br>
-        <div class="w3-container w3-row">
-          <div class="w3-col s4"> </div>
-        </div>
-        <hr> </a>
-      <div class="w3-container"><a> </a>
-        <div class="w3-bar-block">
-          <a href="#" class="w3-bar-item w3-button w3-padding-16 w3-hide- w3-dark-grey w3-hover-black"
-            >
-            <i class="fa fa-remove fa-fw"></i>
-            Close Menu</a> 
-          <a href="about.html" class="w3-bar-item w3-button w3-padding ">
-            <i class="fa fa-users fa-fw">
-            </i> About Us</a> 
-          <a href="about.html"class="w3-bar-item w3-button w3-padding">
-            <i class="fa fa-fw fa-server"></i>
-            Conduct Assessment </a> 
-          <a href="frame.html" class="w3-bar-item w3-button w3-padding">
-            <i
-              class="fa fa-object-group fa-fw"></i>&nbsp; Framework Breakdown </a>
-          <a href="locate.html" class="w3-bar-item w3-button w3-padding"><i class="fa fa-bullseye fa-fw"></i>&nbsp;
-            Cat Locater</a> <br>
-          <br>
-        </div>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+</style> </head>
+  <body>
+    <!-- Top container -->
+    <!-- Sidebar/menu -->
+    <nav class="w3-sidebar w3-light-amber w3-collapse w3-top w3-large w3-padding"
+      style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+      <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft"
+        style="width:100%;font-size:22px">Close Menu</a>
+      <div class="w3-container">
+        <h3 class="w3-padding-64"><b>Risk Assessors<br>
+          </b></h3>
       </div>
+      <div class="w3-bar-block"> <a href="assess.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Conduct
+          Assessment</a> <a href="#showcase" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">About
+          Us</a> </div>
     </nav>
+    <br>
     <!-- Overlay effect when opening sidebar on small screens -->
     <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()"
       style="cursor:pointer" title="close side menu" id="myOverlay"></div>
     <!-- !PAGE CONTENT! -->
     <!-- Photo grid -->
-    <div class="w3-row">
-      <div class="w3-third"> <img src="assets/donkeys.jpg" style="width:100%" onclick="onClick(this)"
-          alt="A boy surrounded by beautiful nature"> </div>
-      <div class="w3-third"> <img src="assets/donkeys.jpg" style="width:100%" onclick="onClick(this)"
-          alt="Quiet day at the beach. Cold, but beautiful"> </div>
-      <div class="w3-third"> <img src="assets/donkeys.jpg" style="width:100%" onclick="onClick(this)"
-          alt="What a beautiful day!"> </div>
-    </div>
     <div class="w3-main" style="margin-center:300px;margin-top:43px;">
-      <!-- Header -->
-      <header class="w3-display-container w3-content w3-center" style="max-width:1500px">
-  <img class="w3-image" src="assets/circut.jpeg" width="750" height="300">
-  <div class="w3-display-middle w3-padding-large w3-border w3-wide w3-text-light-grey w3-top">
-    <h1 class="w3-hide-medium w3-hide-small w3-xxxlarge">JANE DOE</h1>
-    <h5 class="w3-hide-large" style="white-space:nowrap">JANE DOE</h5>
-    <h3 class="w3-hide-medium w3-hide-small">PHOTOGRAPHER</h3>
-  </div>
-        <div class="w3-container">
-          <hr>
-          <div class="w3-center">
-            <h2>Cat Information </h2>
+      <!-- Top menu on small screens -->
+      <header class="w3-container w3-top w3-hide-large w3-light-amber w3-xlarge w3-padding">
+        <a href="javascript:void(0)" class="w3-button w3-light-amber w3-margin-right"
+          onclick="w3_open()">☰</a> <span>The Risk Assessors</span> </header>
+      <!-- Overlay effect when opening sidebar on small screens -->
+      <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer"
+        title="close side menu" id="myOverlay"></div>
+      <!-- !PAGE CONTENT! -->
+      <div class="w3-main" style="margin-left:340px;margin-right:40px">
+        <!-- Header -->
+        <div class="w3-row">
+          <div class="w3-third"> <img src="assets/newdonkeys.jpg" style="width:100%"></div>
+          <div class="w3-third"> <img src="assets/newcircut.jpeg" style="width:100%;opacity:0.7;"
+              onclick="onClick(this)" alt="Quiet day at the beach. Cold, but beautiful">
           </div>
-          <div class="w3-row-padding w3-margin-bottom">
-            <div class="w3-quarter">
-              <div class="w3-container w3-red w3-padding-16">
-                <div class="w3-left"><i class="fa fa-comment w3-xxxlarge"></i></div>
-                <div class="w3-right">
-                  <h3>52</h3>
+          <div class="w3-third"> <img src="assets/newdonkeys.jpg" style="width:100%"
+              onclick="onClick(this)" alt="What a beautiful day!"> </div>
+          <div class="w3-container">
+            <hr>
+            <div class="w3-center">
+              <h2>Cat Information </h2>
+            </div>
+            <div class="w3-row-padding w3-margin-bottom">
+              <div class="w3-quarter">
+                <div class="w3-container w3-red w3-padding-16">
+                  <div class="w3-left"><i class="fa fa-comment w3-xxxlarge"></i></div>
+                  <div class="w3-right">
+                    <h3>52</h3>
+                  </div>
+                  <div class="w3-clear"></div>
+                  <h4>Messages</h4>
                 </div>
-                <div class="w3-clear"></div>
-                <h4>Messages</h4>
+              </div>
+              <div class="w3-quarter">
+                <div class="w3-container w3-blue w3-padding-16">
+                  <div class="w3-left"><i class="fa fa-eye w3-xxxlarge"></i></div>
+                  <div class="w3-right">
+                    <h3>99</h3>
+                  </div>
+                  <div class="w3-clear"></div>
+                  <h4>Views</h4>
+                </div>
+              </div>
+              <div class="w3-quarter">
+                <div class="w3-container w3-teal w3-padding-16">
+                  <div class="w3-left"><i class="fa fa-share-alt w3-xxxlarge"></i></div>
+                  <div class="w3-right">
+                    <h3>23</h3>
+                  </div>
+                  <div class="w3-clear"></div>
+                  <h4>Shares</h4>
+                </div>
+              </div>
+              <div class="w3-quarter">
+                <div class="w3-container w3-orange w3-text-white w3-padding-16">
+                  <div class="w3-left"><i class="fa fa-users w3-xxxlarge"></i></div>
+                  <div class="w3-right">
+                    <h3>50</h3>
+                  </div>
+                  <div class="w3-clear"></div>
+                  <h4>Users</h4>
+                </div>
               </div>
             </div>
-            <div class="w3-quarter">
-              <div class="w3-container w3-blue w3-padding-16">
-                <div class="w3-left"><i class="fa fa-eye w3-xxxlarge"></i></div>
-                <div class="w3-right">
-                  <h3>99</h3>
-                </div>
-                <div class="w3-clear"></div>
-                <h4>Views</h4>
-              </div>
+            <div class="w3-panel">
+              <div class="w3-row-padding" style="margin:0 -16px"> </div>
             </div>
-            <div class="w3-quarter">
-              <div class="w3-container w3-teal w3-padding-16">
-                <div class="w3-left"><i class="fa fa-share-alt w3-xxxlarge"></i></div>
-                <div class="w3-right">
-                  <h3>23</h3>
-                </div>
-                <div class="w3-clear"></div>
-                <h4>Shares</h4>
-              </div>
-            </div>
-            <div class="w3-quarter">
-              <div class="w3-container w3-orange w3-text-white w3-padding-16">
-                <div class="w3-left"><i class="fa fa-users w3-xxxlarge"></i></div>
-                <div class="w3-right">
-                  <h3>50</h3>
-                </div>
-                <div class="w3-clear"></div>
-                <h4>Users</h4>
-              </div>
-            </div>
-          </div>
-          <div class="w3-panel">
-            <div class="w3-row-padding" style="margin:0 -16px"> </div>
-          </div>
-          <!-- End page content --> </div>
-        <script>
+            <!-- End page content --> </div>
+          <script>
 // Get the Sidebar
 var mySidebar = document.getElementById("mySidebar");
 
@@ -156,6 +125,7 @@ function w3_close() {
     mySidebar.style.display = "none";
     overlayBg.style.display = "none";
 }
-</script> </header></div>
+</script> </div> </div>
+    </div>
   </body>
 </html>

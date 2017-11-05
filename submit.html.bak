@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Assesment Results</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style/w3schools.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+</style> </head> 
+<!-- Content -->
+    <div class="w3-content" style="max-width:1100px;margin-top:80px;margin-bottom:80px">
+      <div class="w3-panel">
+        <!-- First Grid -->
+        <div class="w3-row-padding  w3-container">
+          <div class="w3-content">
+            <div class="w3-t">
+              <div class="w3-center w3-padding-64 "> <span class="w3-xlarge w3-bottombar w3-border-light-amber w3-padding-16">
+                  Top 3 Reccomendations </span></div>
+              <h5 class="w3-padding-32">
+              <p class="w3-text-grey">With both high turnover, and a reliance on email, this leads to a large phishing vulnerability. <br><br>
+
+With the use of POS (Point of Sale) machines, make sure to research the make and model every month to keep up-to-date with updates and vulnerabilities.
+
+<br><br>With the use of POS (Point of Sale) machines, and a public network, ensure that the network is properly configured. Consider a hiring on contact a network consultant. 
+</p>
+              </h5>
+                </div>
+                </div>
+          </div>
+        </div>
