@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head profile="http://www.w3.org/2005/10/profile">
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <title>CATS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+			<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+			<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+			<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+			<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+			<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+			<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+			<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+			<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+			<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+			<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png"><span bluegriffonstandalone='true' bluegriffonsourceselected='true'></span>
+			<link rel="shortcut icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+			<link rel="manifest" href="/manifest.json">
+			<meta name="msapplication-TileColor" content="#ffffff">
+			<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+			<meta name="theme-color" content="#ffffff">
+				html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+			</style>
+  </head>  
+<div class="w3-content" style="max-width:1100px;margin-top:80px;margin-bottom:80px">
+      <div class="w3-panel">
+        <div class="w3-light-grey w3-padding-large w3-padding-32 w3-margin-top"
+          id="contact">
+          <h3 class="w3-center">Apply For a Care Package</h3>
+          <hr>
+          <p>Fill out the following form to determine your Care package needs.
+            This form is also intended to connect you with humanitarian groups
+            that are in your area. Please note that we are not currently
+            accepting applications at this time.</p>
+          <h5 class="w3-center"> Available Care Package Items</h5>
+          <h5>
+            <form>
+              <hr> <input name="gender" value="Bacteria Testing Kit" type="checkbox">
+              Bacteria Testing Kit<br>
+              <input name="gender" value=" Molds for Creating Water Filter Parts"
+                type="checkbox"> Molds for Creating Water Filter Parts<br>
+              <input name="gender" value="Filtrate for Heavy Metals" type="checkbox">
+              Filtrate for Heavy Metals<br>
+              <input name="gender" value=" Manuals for Creating Recycling Machines"
+                type="checkbox"> Manuals for Creating Recycling Machines<br>
+              <input name="gender" value="Emergency Filtration Kit" type="checkbox">
+              Emergency Filtration Kit<br>
+              <input name="gender" value=" PPM Sensor " type="checkbox"> PPM
+              Sensor<br>
+              <input name="gender" value="Hard to Obtain Parts for Machines" type="checkbox">Hard
+              to Obtain Parts for Machines
+              <input type="radio" name="gender" value="male" checked> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+  <input type="radio" name="gender" value="other"> Other
+              <button type="submit" class="w3-button w3-block w3-dark-grey">Submit</button>
+            </form>
+          </h5>
+        </div>
