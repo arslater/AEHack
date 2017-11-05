@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
+      
+      <link rel="icon" sizes="192x192" href="//ssl.gstatic.com/docs/forms/device_home/android_192.png">
       <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
 			<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
 			<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
@@ -17,17 +19,16 @@
 			<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
 			<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
 			<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
-			<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-			<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png"><span bluegriffonstandalone='true' bluegriffonsourceselected='true'></span>
-			<link rel="shortcut icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+			<link rel="shortcut icon" href="favicon.ico">
 			<link rel="manifest" href="/manifest.json">
 			<meta name="msapplication-TileColor" content="#ffffff">
 			<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 			<meta name="theme-color" content="#ffffff">
 				html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 			</style>
-  </head>  
-<div class="w3-content" style="max-width:1100px;margin-top:80px;margin-bottom:80px">
+  </head>
+  <body>
+    <div class="w3-content" style="max-width:1100px;margin-top:80px;margin-bottom:80px">
       <div class="w3-panel">
         <div class="w3-light-grey w3-padding-large w3-padding-32 w3-margin-top"
           id="contact">
@@ -39,25 +40,27 @@
             accepting applications at this time.</p>
           <h5 class="w3-center"> Available Care Package Items</h5>
           <h5>
-            <form>
-              <hr> <input name="gender" value="Bacteria Testing Kit" type="checkbox">
-              Bacteria Testing Kit<br>
-              <input name="gender" value=" Molds for Creating Water Filter Parts"
-                type="checkbox"> Molds for Creating Water Filter Parts<br>
-              <input name="gender" value="Filtrate for Heavy Metals" type="checkbox">
-              Filtrate for Heavy Metals<br>
-              <input name="gender" value=" Manuals for Creating Recycling Machines"
-                type="checkbox"> Manuals for Creating Recycling Machines<br>
-              <input name="gender" value="Emergency Filtration Kit" type="checkbox">
-              Emergency Filtration Kit<br>
-              <input name="gender" value=" PPM Sensor " type="checkbox"> PPM
-              Sensor<br>
-              <input name="gender" value="Hard to Obtain Parts for Machines" type="checkbox">Hard
-              to Obtain Parts for Machines
-              <input type="radio" name="gender" value="male" checked> Male<br>
-  <input type="radio" name="gender" value="female"> Female<br>
-  <input type="radio" name="gender" value="other"> Other
-              <button type="submit" class="w3-button w3-block w3-dark-grey">Submit</button>
-            </form>
+            <p> What Foods do you like? </p>
+            <form> <input name="food" value="Pizza" id="pizza" type="checkbox">
+              Pizza<br>
+              <input name="food" value="Ice_Cream" type="checkbox"> Ice Cream<br>
+              <input name="food" value="Cake" type="checkbox"> Cake </form>
+            <p> What Colors do you like? </p>
+            <form> <input name="color" value="Blue" type="checkbox"> Blue<br>
+              <input name="color" value="Red" type="checkbox"> Red<br>
+              <input name="color" value="Yellow" type="checkbox"> Yellow </form>
+            <p> What is the best animal </p>
+            <form> <input name="animal" value="Cat" checked="checked" type="radio">
+              Cat<br>
+              <input name="animal" value="Dog" type="radio"> Dog<br>
+              <p> What is the best state </p>
+              <input name="state" value="Virginia" checked="checked" type="radio">
+              Viriginia<br>
+              <input name="state" value="Maryland" type="radio"> Maryland<br>
+              <input name="state" value="Utah" type="radio"> Utah </form>
           </h5>
         </div>
+      </div>
+    </div>
+  </body>
+</html>

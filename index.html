@@ -2,7 +2,7 @@
 <html>
   <head profile="http://www.w3.org/2005/10/profile">
     <meta content="text/html; charset=UTF-8" http-equiv="content-type">
-    <title>CATS</title>
+    <title>Risk Assess</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
@@ -27,38 +27,41 @@
 				html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 			</style>
   </head>
-  <body class="w3-light-grey w3-content" style=" max-width:1600px"> <!-- Top container -->
-    <div class="w3-bar w3-top w3-black w3-large" style="z-index:4"> <button class="w3-bar-item w3-button w3-hide-large w3-hover-none w3-hover-text-light-grey"
-        onclick="w3_open();"><a href="#" class="w3-bar-item w3-button w3-padding-16 w3-hide-large w3-dark-grey w3-hover-black"
-          onclick="w3_close()" title="close menu"><i class="fa fa-remove fa-fw"></i>&nbsp;<i
-            class="fa fa-bars"></i>Menu</a></button><a href="#" class="w3-bar-item w3-button w3-padding-16 w3-hide-large w3-dark-grey w3-hover-black"
-        onclick="w3_close()" title="close menu"> </a></div>
-    <a href="#" class="w3-bar-item w3-button w3-padding-16 w3-hide-large w3-dark-grey w3-hover-black"
-      onclick="w3_close()" title="close menu"> </a>
+  <body class="w3-light-grey w3-content" style="   max-width:1600px"> 
+      <!-- Top container -->
+      <!-- Top container -->
+      <div class="w3-bar w3-top w3-black w3-large" style="z-index:4"> <button class="w3-bar-item w3-button w3-hide-large w3-hover-none w3-hover-text-light-grey"
+          onclick="w3_open();"><i class="fa fa-bars"></i> Menu</button> </div>
+      <hr> <a>
     <nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;"
-      id="mySidebar"><a href="#" class="w3-bar-item w3-button w3-padding-16 w3-hide-large w3-dark-grey w3-hover-black"
-        onclick="w3_close()" title="close menu">
-        <hr>
-        <div class="w3-container">
-          <h5>Dashboard</h5>
+      id="mySidebar"><a><br>
+        <div class="w3-container w3-row">
+          <div class="w3-col s4"> </div>
         </div>
-      </a>
-      <div class="w3-bar-block"><a href="#" class="w3-bar-item w3-button w3-padding-16 w3-hide-large w3-dark-grey w3-hover-black"
-          onclick="w3_close()" title="close menu"> </a><a href="#" class="w3-bar-item w3-button w3-padding-16 w3-hide-large w3-dark-grey w3-hover-black"
-          onclick="w3_close()" title="close menu"><i class="fa fa-remove fa-fw"></i>&nbsp;
-          Close Menu</a> <a href="about.html" class="w3-bar-item w3-button w3-padding "><i
-            class="fa fa-users fa-fw"></i>&nbsp; About Us</a> <a href="about.html"
-          class="w3-bar-item w3-button w3-padding"><i class="fa fa-fw fa-server"></i>&nbsp;
-          Conduct Assessment </a> <a href="frame.html" class="w3-bar-item w3-button w3-padding"><i
-            class="fa fa-object-group fa-fw"></i>&nbsp; Framework Breakdown </a>
-        <a href="locate.html" class="w3-bar-item w3-button w3-padding"><i class="fa fa-bullseye fa-fw"></i>&nbsp;
-          Cat Locater</a> <br>
-        <br>
+        <hr> </a>
+      <div class="w3-container"><a> </a>
+        <div class="w3-bar-block">
+          <a href="#" class="w3-bar-item w3-button w3-padding-16 w3-hide- w3-dark-grey w3-hover-black">
+            </a>
+          <a href="about.html" class="w3-bar-item w3-button w3-padding ">
+            <i class="fa fa-users fa-fw">
+            </i> About Us</a> 
+          <a href="about.html"class="w3-bar-item w3-button w3-padding">
+            <i class="fa fa-fw fa-server"></i>
+            Conduct Assessment </a> 
+          <a href="frame.html" class="w3-bar-item w3-button w3-padding">
+            <i
+              class="fa fa-object-group fa-fw"></i>&nbsp; Framework Breakdown </a>
+          <a href="locate.html" class="w3-bar-item w3-button w3-padding"><i class="fa fa-bullseye fa-fw"></i>&nbsp;
+            Cat Locater</a> <br>
+          <br>
+        </div>
       </div>
     </nav>
     <!-- Overlay effect when opening sidebar on small screens -->
+    <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()"
+      style="cursor:pointer" title="close side menu" id="myOverlay"></div>
     <!-- !PAGE CONTENT! -->
-    <applet code="org.me.hello.MyApplet" archive="HelloApplet.jar"></applet> 
     <!-- Photo grid -->
     <div class="w3-row">
       <div class="w3-third"> <img src="assets/donkeys.jpg" style="width:100%" onclick="onClick(this)"
@@ -68,47 +71,15 @@
       <div class="w3-third"> <img src="assets/donkeys.jpg" style="width:100%" onclick="onClick(this)"
           alt="What a beautiful day!"> </div>
     </div>
-    <div class="w3-main" style="margin-left:300px;margin-top:43px;">
+    <div class="w3-main" style="margin-center:300px;margin-top:43px;">
       <!-- Header -->
-      <header class="w3-container" style="padding-top:22px">
-        <div class="w3-row-padding w3-center w3-margin-top">
-          <div class="w3-third">
-            <div class="w3-card w3-container" style="min-height:460px">
-              <h3>Fluffy Cats</h3>
-              <br>
-              <i class="fa fa-paw w3-margin-bottom w3-text-theme" style="font-size:120px"></i>
-              <p>Built-in responsiveness</p>
-              <p>Mobile first fluid grid</p>
-              <p>Fits any screen sizes</p>
-              <p>PC Tablet and Mobile</p>
-            </div>
-          </div>
-          <div class="w3-third">
-            <div class="w3-card w3-container" style="min-height:460px">
-              <h3>Funny Cats</h3>
-              <br>
-              <i class="fa fa-comments-o w3-margin-bottom w3-text-theme" style="font-size:120px"></i>
-              <p>Standard CSS only</p>
-              <p>Easy to learn</p>
-              <p>No need for jQuery</p>
-              <p>No JavaScript library</p>
-            </div>
-          </div>
-          <div class="w3-third">
-            <div class="w3-card w3-container" style="min-height:460px">
-              <h3>Lit Cats</h3>
-              <br>
-              <i class="fa fa-tint w3-margin-bottom w3-text-theme" style="font-size:120px"></i>
-              <p>Paper like design</p>
-              <p>Bold colors and shadows</p>
-              <p>Equal across platforms</p>
-              <p>Equal across devices</p>
-              <br>
-              <br>
-            </div>
-          </div>
-          <br>
-        </div>
+      <header class="w3-display-container w3-content w3-center" style="max-width:1500px">
+  <img class="w3-image" src="assets/circut.jpeg" width="750" height="300">
+  <div class="w3-display-middle w3-padding-large w3-border w3-wide w3-text-light-grey w3-top">
+    <h1 class="w3-hide-medium w3-hide-small w3-xxxlarge">JANE DOE</h1>
+    <h5 class="w3-hide-large" style="white-space:nowrap">JANE DOE</h5>
+    <h3 class="w3-hide-medium w3-hide-small">PHOTOGRAPHER</h3>
+  </div>
         <div class="w3-container">
           <hr>
           <div class="w3-center">
@@ -159,63 +130,6 @@
           <div class="w3-panel">
             <div class="w3-row-padding" style="margin:0 -16px"> </div>
           </div>
-          <hr>
-          <div class="w3-container">
-            <h5>General Stats</h5>
-            <p>New Visitors</p>
-            <div class="w3-grey">
-              <div class="w3-container w3-center w3-padding w3-green" style="width:25%">+25%</div>
-            </div>
-            <p>New Users</p>
-            <div class="w3-grey">
-              <div class="w3-container w3-center w3-padding w3-orange" style="width:50%">50%</div>
-            </div>
-            <p>Bounce Rate</p>
-            <div class="w3-grey">
-              <div class="w3-container w3-center w3-padding w3-red" style="width:75%">75%</div>
-            </div>
-          </div>
-          <hr>
-          <div class="w3-container">
-            <h5>Countries</h5>
-            <table class="w3-table w3-striped w3-bordered w3-border w3-hoverable w3-white">
-              <tbody>
-                <tr>
-                  <td>United States</td>
-                  <td>65%</td>
-                </tr>
-                <tr>
-                  <td>UK</td>
-                  <td>15.7%</td>
-                </tr>
-                <tr>
-                  <td>Russia</td>
-                  <td>5.6%</td>
-                </tr>
-                <tr>
-                  <td>Spain</td>
-                  <td>2.1%</td>
-                </tr>
-                <tr>
-                  <td>India</td>
-                  <td>1.9%</td>
-                </tr>
-                <tr>
-                  <td>France</td>
-                  <td>1.5%</td>
-                </tr>
-              </tbody>
-            </table>
-            <br>
-            <button class="w3-button w3-dark-grey">More Countries &nbsp;<i class="fa fa-arrow-right"></i></button>
-          </div>
-          <br>
-          <!-- Footer -->
-          <footer class="w3-container w3-padding-16 w3-light-grey">
-            <h4>FOOTER</h4>
-            <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp"
-                target="_blank">w3.css</a></p>
-          </footer>
           <!-- End page content --> </div>
         <script>
 // Get the Sidebar
